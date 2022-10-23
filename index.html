@@ -1,0 +1,319 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontAwesome.css">
+	<title> D<sup>4</sup> - a Chinese Dialogue Dataset for Depression-Diagnosis-Oriented Chat </title>
+</head>
+<body>
+	<header class="header">
+		<div class="container clearfix">
+			<div class="left-container">
+				<a href="#"> D<sup>4</sup> </a>
+			</div>
+			<div class="right-container">
+				<ul class="nav-menu clearfix">
+					<li>
+						<a href="#"> Home </a> 
+					<li>
+					<!-- <li>
+						<a href="dashboard.html"> Explore v1.0 </a>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="banner">
+		<div class="container clearfix">
+			<h1> D<sup>4</sup> </h1>
+			<span> A Chinese Dialogue Dataset for Depression-Diagnosis-Oriented Chat </span>
+			<!-- <a href="data.html" class="download-hyperlink"><button class="download-button">
+				<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i> Download 
+				</button>
+			</a> -->
+		</div>
+	</section>
+	<section class="main-content">
+		<div class="container clearfix">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="info-container">
+						<span class="info-title">
+							<i class="fa fa-info-circle" aria-hidden="true"></i>
+							What is D<sup>4</sup>?
+						</span>
+						<p>
+							D<sup>4</sup> is a novel Chinese <strong>D</strong>ialogue <strong>D</strong>ataset for <strong>D</strong>epression-<strong>D</strong>iagnosis-Oriented Chat, which is a brand new type of dialogue called Task-Oriented Chat. It consists of 1,339 multi-turn (Avg.turns 21.6) dialogues with dialogue summary and diagnosis results. This dataset mainly serves for constructing a more
+							empathy-driven and diagnostic-accurate consultation dialogue system.
+						</p>
+						<button class="action-button" style="display: none;">
+							Button 1
+						</button>
+						<button class="inverse-button" style="display: none;">
+							Button 2
+						</button>
+						<span class="info-title">
+							<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+							Get Access
+						</span>
+						<p>
+							To get access to the data, you must <strong>Sign a Data Usage Agreement (DUA) </strong> to prevent the invasion of privacy or other potential misuses.
+							<span>	
+							<br/>Please read the DUA carefully, and especially <strong>Pay Attention</strong> that:
+							<!-- <br/> -->
+							<br/>1. You cannot transfer or share any part of the dataset.
+							<br/>2. You cannot identify or contact any user in the dataset.
+							<br/>3. You can only use the data for <strong>research purposes</strong>.
+							<!-- <br/> -->
+							<br/>Please send a email to <a href="mailto:yaobinwei@sjtu.edu.cn">yaobinwei@sjtu.edu.cn</a> with the message: "<i>I consent to the Data Usage Agreement (DUA)</i>." and attach the DUA including your signature in it.
+							<br/>
+							<br/>
+							</span>
+							<a href="https://docs.google.com/document/d/1dcT4Z4uK4f9nfoOhRvUR6uv-KH1SRdh6/edit?usp=sharing&ouid=117307988136809658128&rtpof=true&sd=true" class="download-link">
+								<i class="fa fa-google" aria-hidden="true"></i>
+								Download DUA from Google Drive
+							</a>
+						</p>
+						<span class="info-title">
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+							News
+						</span>
+						<p class="row">
+                            <!-- <span class="news-date col-md-2"> Oct 22, 2022 </span> -->
+							<!-- <span class="news-context"> The full dataset and baseline is available in: </span>
+							<a href="https://pan.baidu.com/s/1-sqWgc8bTm6-bkAFYJwYQQ" class="download-link">
+								<i class="fa fa-cloud-download" aria-hidden="true"></i>
+								Extraction code: <strong>2mys</strong> 
+							</a>
+							<a href="https://websrc-data.s3.amazonaws.com/release.zip" class="download-link">
+								<i class="fa fa-amazon" aria-hidden="true"></i>
+								Download from Amazon.com
+							</a> -->
+
+                            <span class="news-date col-md-2"> Oct 6, 2022 </span>
+							<span class="news-context"> Our paper is accepted by EMNLP 2022, the updated version of dataset will be available soon. </span>
+							<!-- <span class="news-context"> Baseline is available on ~~~ <a href="https://github.com/X-LANCE/WebSRC-Baseline" class="download-link">
+								<i class="fa fa-github" aria-hidden="true"></i>
+								WebSRC-Baseline
+							</a></span> -->
+							
+						</p>
+
+						<span class="info-title">
+							<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+							Contact Us
+						</span>
+						<p>
+							If you have any questions about this dataset, please contact
+							<a href="mailto:yaobinwei@sjtu.edu.cn">yaobinwei@sjtu.edu.cn</a>, 
+							<a href="mailto:mengyuewu@sjtu.edu.cn">mengyuewu@sjtu.edu.cn</a>
+							or <a href="mailto:chenlusz@sjtu.edu.cn">chenlusz@sjtu.edu.cn</a> 
+						</p>
+
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="info-container">
+						<span class="info-title">
+							<i class="fa fa-database" aria-hidden="true"></i>
+							Statistics
+						</span>
+						<p>
+						<strong> Depression Severity Stats</strong>
+						<table class="leader-board">
+							<tbody>
+								<tr>
+									<th> Category </th>
+									<th> Overall</th>
+									<th> Control </th>
+									<th> Mild </th>
+									<th> Moderate </th>
+									<th> Severe </th>
+								</tr>
+								<tr>
+									<th> Dialogues </th>
+									<th>1,339</th>
+									<th> 430 </th>
+									<th> 342 </th>
+									<th> 368 </th>
+									<th> 199 </th>
+								</tr>
+								<tr>
+									<th> Avg. Turns </th>
+									<th> 21.6</th>
+									<th> 17.9 </th>
+									<th> 21.3 </th>
+									<th> 23.7 </th>
+									<th> 26.0 </th>
+								</tr>
+								<tr>
+									<th> Avg. Tokens of Symptom Summary </th>
+									<th> 84.4 </th>
+									<th> 59.8 </th>
+									<th> 82.0 </th>
+									<th> 100.5 </th>
+									<th> 111.9 </th>
+								</tr>
+							</tbody>
+						</table>
+						<br/>
+						<strong> Topic Stats</strong>
+						<p text-aligh="center">
+							<div class="row">
+								<div class="col-md-6"><img src="image/topic ratio.png " alt="Topic Ratio" width="100%"></div>
+								<div class="col-md-6"><img src="image/6topic.png " alt="Topic Ratio" width="100%"></div>
+							</div>
+						</p>
+						<span class="info-title">
+							<i class="fa fa-bar-chart" aria-hidden="true"></i>
+							Leaderboard
+						</span>
+						<p>
+						4 tasks on D4 introduced in our paper, including Response Generation, Topic Prediction, Dialog Summary and Severity Classification. The baseline will be available soon.
+						</p>
+						<!-- <table class="leader-board">
+							<tbody>
+								<tr>
+									<th> Rank </th>
+									<th> Model </th>
+									<th> EM </th>
+									<th> F1 </th>
+									<th> POS </th>
+								</tr>
+								<tr>
+									<td>
+										1
+										<span>
+											Oct 12, 2022
+										</span>
+									</td>
+									<td>
+										DocPrompt (ErnieLayout-Large)
+										<p> BAIDU-Document Intelligence </p>
+										<a class='link'> (Wu et al.) </a>
+										<a class='link' href='https://github.com/PaddlePaddle/PaddleNLP/tree/develop/model_zoo/ernie-layoutx'> code </a>
+										<a class='link' href='https://huggingface.co/spaces/PaddlePaddle/ERNIE-LayoutX'> demo </a>
+									</td>
+									<td class="stat"> 77.35 </td>
+									<td class="stat"> 85.04 </td>
+									<td class="stat"> N/A </td>
+								</tr>
+								<tr>
+									<td>
+										2
+										<span>
+											Mar 01, 2022
+										</span>
+									</td>
+									<td>
+										TIE (MarkupLM-Large)
+										<p> Shanghai Jiao Tong University </p>
+										<a class='link' href='https://arxiv.org/abs/2205.06435'> (Zhao et al., NAACL'22) </a>
+										<a class='link' href='https://github.com/X-LANCE/TIE'> code </a>
+									</td>
+									<td class="stat"> 76.25 </td>
+									<td class="stat"> 80.51 </td>
+									<td class="stat"> 89.50 </td>
+								</tr>
+								<tr>
+									<td>
+										3
+										<span>
+											Mar 01, 2022
+										</span>
+									</td>
+									<td>
+										TIE (MarkupLM-Large)-3_seeds_ave
+										<p> Shanghai Jiao Tong University </p>
+										<a class='link' href='https://arxiv.org/abs/2205.06435'> (Zhao et al., NAACL'22) </a>
+										<a class='link' href='https://github.com/X-LANCE/TIE'> code </a>
+									</td>
+									<td class="stat"> 75.87 </td>
+									<td class="stat"> 80.19 </td>
+									<td class="stat"> 89.73 </td>
+								</tr>
+								<tr>
+									<td>
+										4
+										<span>
+											Nov 30, 2021
+										</span>
+									</td>
+									<td>
+										MarkupLM-Large
+										<p> MSRA+SJTU </p>
+										<a class='link' href='https://arxiv.org/abs/2110.08518'> (Li et al., ACL'22) </a>
+										<a class='link' href='https://github.com/microsoft/unilm/tree/master/markuplm'> code </a>
+									</td>
+									<td class="stat"> 69.87 </td>
+									<td class="stat"> 77.94 </td>
+									<td class="stat"> 88.09 </td>
+								</tr>
+								<tr>
+									<td>
+										5
+										<span>
+											Nov 30, 2021
+										</span>
+									</td>
+									<td>
+										MarkupLM-Large (3_seeds_ave)
+										<p> MSRA+SJTU </p>
+										<a class='link' href='https://arxiv.org/abs/2110.08518'> (Li et al., ACL'22) </a>
+										<a class='link' href='https://github.com/microsoft/unilm/tree/master/markuplm'> code </a>
+									</td>
+									<td class="stat"> 69.09 </td>
+									<td class="stat"> 76.45 </td>
+									<td class="stat"> 87.24 </td>
+								</tr>
+								<tr>
+									<td>
+										6
+										<span>
+											Sept 01, 2021
+										</span>
+									</td>
+									<td>
+										V-PLM (ELECTRA)
+										<p> Shanghai Jiao Tong University </p>
+										<a class='link' href='https://arxiv.org/abs/2101.09465'> (Chen et al., EMNLP'21) </a>
+										<a class='link' href='https://github.com/X-LANCE/WebSRC-Baseline'> code </a>
+									</td>
+									<td class="stat"> 68.07 </td>
+									<td class="stat"> 75.25 </td>
+									<td class="stat"> 84.96 </td>
+								</tr>
+								<tr>
+									<td>
+										7
+										<span>
+											Sept 01, 2021
+										</span>
+									</td>
+									<td>
+										V-PLM (BERT)
+										<p> Shanghai Jiao Tong University </p>
+										<a class='link' href='https://arxiv.org/abs/2101.09465'> (Chen et al., EMNLP'21) </a>
+										<a class='link' href='https://github.com/X-LANCE/WebSRC-Baseline'> code </a>
+									</td>
+									<td class="stat"> 54.84 </td>
+									<td class="stat"> 62.80 </td>
+									<td class="stat"> 76.39 </td>
+								</tr>
+							</tbody>
+						</table> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer clearfix">
+		<a href="http://x-lance.sjtu.edu.cn/"> SJTU X-LANCE Lab<a>
+	</section>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>
